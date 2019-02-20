@@ -20,4 +20,12 @@ public class MyLinkedList {
     public void setTail(Node tail) {
         this.tail = tail;
     }
+
+    public int getCurrentSize() {
+        return currentSize;
+    }
+
+    public void setCurrentSize(int currentSize) {
+        this.currentSize = currentSize;
+    }
 }
