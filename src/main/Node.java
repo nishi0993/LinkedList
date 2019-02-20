@@ -30,5 +30,8 @@ private  Node next;
         this.next=null;
     }
 
-
+    public Node(int data) {
+        this.data = data;
+        this.next=null;
+    }
 }
