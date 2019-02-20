@@ -12,4 +12,12 @@ public class MyLinkedList {
     public void setHead(Node head) {
         this.head = head;
     }
+
+    public Node getTail() {
+        return tail;
+    }
+
+    public void setTail(Node tail) {
+        this.tail = tail;
+    }
 }
