@@ -34,6 +34,15 @@ public class MyLinkedList {
         this.tail=null;
         currentSize=0;
     }
+    public void display(Node data)
+    {Node t=head; int index=0;
+        while(t.data!=null);
+        {
+            index++;
+            next=next;
+            System.out.println();
+        }
+    }
 
     public static void main(String[] args) {
         MyLinkedList linkedList=new MyLinkedList();
