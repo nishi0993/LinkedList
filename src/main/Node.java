@@ -2,6 +2,7 @@ package main;
 
 public class Node {
 private  int data;
+private  Node next;
 
     public int getData() {
         return data;
@@ -10,4 +11,5 @@ private  int data;
     public void setData(int data) {
         this.data = data;
     }
+
 }
