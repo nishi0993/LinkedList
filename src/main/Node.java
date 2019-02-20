@@ -34,4 +34,5 @@ private  Node next;
         this.data = data;
         this.next=null;
     }
+
 }
